@@ -1,0 +1,39 @@
+Scala QuickRef
+==============
+
+I want one. Other people want one. So let's write one. A quickref is a "dense
+but easy navigated guides provide easily forgotten information about the most
+frequently used features of a language" (Payne, 2009)
+
+Please report omissions and errors to <tom@tommorris.org> or to my GitHub
+issue tracker. Or just, y'know, fix 'em and send a patch.
+
+STYLE
+-----
+English please. Except where it's Scala or XHTML. HTML/XML encode Unicode
+characters.
+
+Please be concise. This is Scala, not Java. ;-)
+
+Please use two space soft tab indents. Consider html, head and body outside of
+the indentation hierarchy.
+
+Feel free to hyperlink to particularly useful further reading after each
+section.
+
+Limit line length to 80.
+
+If you need to assign class names or IDs, please use lower-case semantic,
+(non-presentational) class names and IDs. Don't use Hungarian notation.
+Separate multiple words with hyphens (e.g. "regex-syntax").
+
+FUN
+---
+If you are working on the QuickRef, add any music you are funking out to our
+collaborative Spotify playlist. :-)
+http://open.spotify.com/user/tommorris/playlist/1MSjScH9yihHXCjG4ezs4M
+
+RELEVANT POSTS/TICKETS
+----------------------
+https://lampsvn.epfl.ch/trac/scala/ticket/1021
+http://al3x.net/2009/06/16/scala-quickref.html [Payne 2009]
