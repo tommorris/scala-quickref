@@ -70,6 +70,64 @@
   <li>&larr;</li>
 </ol>
 
+<h2>Defining classes</h2>
 
+<p>Class names should begin with capital characters as in Java.</p>
+
+<p><code><pre>
+class Book {
+  def checkOut(borrower: User) {
+    // ...
+  }
+}
+</pre></code></p>
+
+<p>Like in Java, classes can be <strong>subclasses</strong> of other classes:</p>
+
+<p><code><pre>
+class Book extends PrintedObject {
+  // ...
+}</pre></code>
+
+<p>Or of <a href="#traits"><strong>traits</strong></a>:</p>
+
+<p><code><pre>
+class Book extends Borrowable {
+  // ...
+}</pre></code>
+
+<p>A class (or an object) can have use inheritance and traits:</p>
+
+<p><code><pre>
+class Book extends Borrowable with Indexable {
+  // ...
+}</pre></code></p>
+
+<h2 id="traits">Defining and Using Traits</h2>
+
+<p>Traits allow for
+<a href="http://en.wikipedia.org/wiki/Multiple_inheritance">multiple 
+inheritance</a> while avoiding the
+<a href="http://en.wikipedia.org/wiki/Diamond_problem">diamond 
+problem</a>. Defining a trait is done in a similar fashion to defining a 
+class. Scala allows you to use traits in the same way that one might use 
+interfaces in Java, C# etc.</p>
+
+<p><code><pre>
+trait Borrowable {
+  def borrow(borrower: User) {
+    // ...implementation...
+  }
+}
+</pre></code></p>
+
+<h2>External Links</h2>
+
+<ul>
+  <li><a href="http://www.scala-lang.org/">Scala</a> website</li>
+  <li><a href="https://lampsvn.epfl.ch/trac/scala">Scala Trac</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Scala_(programming_language)">Wikipedia</a>, <a href="http://en.citizendium.org/wiki/Scala_(programming_language)">Citizendium</a></li>
+  <li><a href="http://stackoverflow.com/questions/tagged/scala">Stack Overflow questions tagged 'Scala'</a></li>
+</ul>
 </body>
 </html>
