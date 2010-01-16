@@ -21,11 +21,32 @@ the indentation hierarchy.
 Feel free to hyperlink to particularly useful further reading after each
 section.
 
+In each section, please refer to the relevant section of the main Scala books -
+Artima's book by Odersky et al., O'Reilly's book by Wampler and Payne, and
+Apress' book by David Pollak. Use the 'book' class on the relevant paragraph of
+references.
+
 Limit line length to 80.
 
 If you need to assign class names or IDs, please use lower-case semantic,
 (non-presentational) class names and IDs. Don't use Hungarian notation.
 Separate multiple words with hyphens (e.g. "regex-syntax").
+
+If in doubt, take guidance from the QuickRefs for Python and Ruby at
+<http://www.zenspider.com/Languages/Ruby/QuickRef.html> and
+<http://rgruet.free.fr/PQR25/PQR2.5.html>.
+
+CLASSNAMES
+----------
+As we define class names for the document, list them below.
+
+books -- lists books of relevance for the current section.
+package -- (for use on 'var' elements) lists a package.
+recursive -- for abbr/acronym elements that contain a recursive acronym like
+  GNU. This one is fun and not at all necessary.
+
+If you include code in any language other than Scala, put the language name as
+a class name on the code element (e.g. "ruby", "php", "python" etc.).
 
 FUN
 ---
